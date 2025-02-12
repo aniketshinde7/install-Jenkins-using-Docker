@@ -36,6 +36,14 @@ Open Jenkins by going to: [http://localhost:8080/](http://localhost:8080/) and f
 
 ## Step 5
 
+To get the jenkins password use:
+
+```
+docker exec {container_ID} cat /var/jenkins_home/secrets/initialAdminPassword
+```
+
+## Step 6
+
 If you wish to stop Jenkins and get back to it later, run:
 
 ```
